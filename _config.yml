@@ -1,0 +1,80 @@
+title: Melano | Discord bot catalog
+description: Каталог лучших Discord-ботов с фильтрацией по категориям, поиском и оценкой
+baseurl: "/discordbotscatalog" # Укажи /repo-name, если размещаешь на GitHub Pages
+url: "https://discordbotscatalog.github.io" # Заменить на свой домен при деплое
+theme: minima
+
+# Плагины
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# Коллекции
+collections:
+  bots:
+    output: true
+    permalink: /bots/:name
+  categories:
+    output: true
+    permalink: /categories/:name
+
+# Пагинация
+paginate: 9
+paginate_path: "/page:num/"
+
+# Эмодзи категорий (отображаются только на странице категорий)
+category_emojis:
+  moderation: "🛡️"
+  music: "🎵"
+  economy: "💰"
+  fun: "🎉"
+  utility: "🛠️"
+  antiraid: "🚫"
+  other: "✨"
+
+# Значения по умолчанию
+defaults:
+  - scope:
+      path: ""
+      type: "bots"
+    values:
+      layout: bot
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: category
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Markdown и подсветка
+markdown: kramdown
+highlighter: rouge
+
+# SEO метаданные
+seo:
+  type: website
+  twitter:
+    username: your_username
+  name: Melano Catalog
+  description: Каталог лучших Discord-ботов с фильтрацией и отзывами
+
+# Локализация
+lang: ru
+
+# Настройки поиска
+search:
+  provider: lunr # либо simple-jekyll-search, если не хочешь lunr.js
+  placeholder: "Поиск по ботам..."
+
+# Стили/ресурсы
+sass:
+  style: compressed
+
+# Время и формат
+timezone: Asia/Almaty
