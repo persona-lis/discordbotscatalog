@@ -1,7 +1,7 @@
 title: Melano | Discord bot catalog
 description: Каталог лучших Discord-ботов с фильтрацией по категориям, поиском и оценкой
 baseurl: "/discordbotscatalog" # Укажи /repo-name, если размещаешь на GitHub Pages
-url: "https://discordbotscatalog.github.io" # Заменить на свой домен при деплое
+url: "https://persona-lis.github.io/discordbotscatalog/ " # Заменить на свой домен при деплое
 theme: minima
 
 # Плагины
