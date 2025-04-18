@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Каталог Discord-ботов | Melano">
+    <title>Главная | Melano | Discord bot catalog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-pattern"></div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О проекте</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Поиск ботов...">
+            <button class="search-btn">🔍</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header id="home">
+            <h1>Melano | Каталог Discord-ботов</h1>
+            <h2>Лучшие боты для вашего сервера</h2>
+            <p class="subtitle">Выберите идеального помощника для вашего сообщества</p>
+        </header>
+
+        <section id="about" class="about-developer">
+            <div class="about block">
+                <h3>О проекте</h3>
+                <p>Melano Catalog — это каталог лучших Discord-ботов, который поможет вам найти именно того бота, который подходит для вашего сервера. Мы собираем только качественные и проверенные боты с широкими возможностями.</p>
+            </div>
+
+            <div class="developer block">
+                <h3>Разработчик</h3>
+                <p>Проект был разработан <strong><a href="https://persona-lis.github.io/personainfo/" target="_blank">Persona</a></strong>. Следите за развитием проекта и узнавайте о новых функциях. Вся информация о ботах обновляется в течении нескольких дней, если Вы столкнулись с несоответствием или ошибкой, обратитесь к Разработчику.</p>
+            </div>
+        </section>
+
+        <section id="catalog" class="catalog">
+            <h3>Лучшие боты за последний месяц</h3>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="emoji">🤖</div>
+                    <p>Бот 1 - Описание бота 1</p>
+                </div>
+                <div class="card">
+                    <div class="emoji">🎵</div>
+                    <p>Бот 2 - Описание бота 2</p>
+                </div>
+                <div class="card">
+                    <div class="emoji">💬</div>
+                    <p>Бот 3 - Описание бота 3</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <p>Улучшите свое сообщество с лучшими ботами!</p>
+            <a href="#catalog" class="btn">Перейти в каталог</a>
+        </section>
+    </div>
+
+    <!-- Подвал -->
+    <footer id="contact">
+        <p class="copyright">© Melano Team (2025), при поддержке BellMine. Все права защищены.</p>
+    </footer>
+</body>
+</html>
+<!-- Вставь внутри <body>, ПЕРЕД </body> -->
+<button id="scrollTopBtn" title="Наверх">↑</button>
+
+<script>
+    const scrollBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = () => {
+        scrollBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+
+    scrollBtn.onclick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>

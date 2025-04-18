@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название бота</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="background-pattern"></div>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="about.html">О проекте</a>
+        <div class="search-container">
+            <input type="text" placeholder="Поиск...">
+            <button class="search-btn">Поиск</button>
+        </div>
+    </nav>
+
+    <!-- Контент страницы -->
+    <div class="container">
+        <header>
+            <h1>Название бота</h1>
+            <h2>Краткое описание бота</h2>
+        </header>
+
+        <div class="card">
+            <h3>Категория: ТЕКСТ</h3>
+            <p>Поддерживаемая локализация: <a href="#">Русский</a>, <a href="#">ТЕКСТ</a></p>
+            <p>Стоимость: <a href="#">ТЕКСТ</a></p>
+            <p>Верифицирован: <a href="#">ТЕКСТ</a></p>
+            <p>Стабильность: <a href="#">ТЕКСТ</a></p>
+            <p>Обновляется ли регулярно: <a href="#">ТЕКСТ</a></p>
+        </div>
+
+        <div class="about-developer">
+            <div class="about">
+                <h3>Описание</h3>
+                <p>Кратко и понятно: что делает бот, в чём его основная задача и целевая аудитория.</p>
+                <p><i>"Lavan — бот для полной анти-рейд защиты сервера с автоматическим реагированием на угрозы, системой отката, логами и защитой от действий модераторов."</i></p>
+            </div>
+
+            <div class="developer">
+                <h3>Разработчик</h3>
+                <p>Имя разработчика</p>
+                <p><a href="https://github.com/developer" target="_blank">Профиль на GitHub</a></p>
+            </div>
+        </div>
+
+        <section class="cta">
+            <a href="#" class="btn">Добавить бота в сервер</a>
+        </section>
+
+        <!-- Преимущества, Недостатки и Основные функции -->
+        <div class="card">
+            <h3>Основные функции</h3>
+            <ul>
+                <li><a href="#">Функция 1</a></li>
+                <li><a href="#">Функция 2</a></li>
+                <li><a href="#">Функция 3</a></li>
+                <li><a href="#">Функция 4</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Преимущества</h3>
+            <ul>
+                <li><a href="#">Преимущество 1</a></li>
+                <li><a href="#">Преимущество 2</a></li>
+                <li><a href="#">Преимущество 3</a></li>
+                <li><a href="#">Преимущество 4</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Недостатки</h3>
+            <ul>
+                <li><a href="#">Недостаток 1</a></li>
+                <li><a href="#">Недостаток 2</a></li>
+                <li><a href="#">Недостаток 3</a></li>
+            </ul>
+        </div>
+
+        <!-- Советы по использованию -->
+        <div class="card">
+            <h3>Советы по использованию</h3>
+            <ul>
+                <li><a href="#">Совет 1</a></li>
+                <li><a href="#">Совет 2</a></li>
+                <li><a href="#">Совет 3</a></li>
+                <li><a href="#">Совет 4</a></li>
+            </ul>
+        </div>
+
+        <!-- Полезные ссылки -->
+        <div class="card">
+            <h3>Полезные ссылки</h3>
+            <ul>
+                <li><a href="https://example.com/docs" target="_blank">Документация</a></li>
+                <li><a href="https://example.com/dashboard" target="_blank">Панель управления</a></li>
+                <li><a href="https://discord.com/invite/example" target="_blank">Сервер поддержки</a></li>
+                <li><a href="https://" target="_blank">Пригласить на сервер</a></li>
+                <li><a href="https://example.com/commands" target="_blank">Команды</a></li>
+            </ul>
+        </div>
+
+        <!-- Аналоги -->
+        <div class="card">
+            <h3>Аналоги</h3>
+            <ul>
+                <li><a href="#">Wick — похожий бот с премиум-системой</a></li>
+                <li><a href="#">FG Anti Raid — альтернатива с простым интерфейсом</a></li>
+                <li><a href="#">Beemo — ориентирован на защиту и экономию ресурсов</a></li>
+            </ul>
+        </div>
+
+        <!-- Оценка -->
+        <div class="card">
+            <h3>Оценка</h3>
+            <table>
+                <tr>
+                    <td>Простота настройки</td>
+                    <td>0/10</td>
+                </tr>
+                <tr>
+                    <td>Надёжность</td>
+                    <td>0/10</td>
+                </tr>
+                <tr>
+                    <td>Скорость реакции</td>
+                    <td>0/10</td>
+                </tr>
+                <tr>
+                    <td>Документация</td>
+                    <td>0/10</td>
+                </tr>
+                <tr>
+                    <td>Поддержка</td>
+                    <td>0/10</td>
+                </tr>
+                <tr>
+                    <td>Итоговая оценка</td>
+                    <td>0/10</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Кнопка "наверх" -->
+    <button id="scrollTopBtn">↑</button>
+
+    <footer>
+        <p>&copy; © Melano Team (2025), при поддержке BellMine. Все права защищены.</p>
+    </footer>
+
+    <script>
+        // Кнопка "наверх"
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+        scrollTopBtn.onclick = function() {
+            window.scrollTo({top: 0, behavior: "smooth"});
+        };
+    </script>
+
+</body>
+
+</html>
